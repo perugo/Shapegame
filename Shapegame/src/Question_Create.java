@@ -3,17 +3,17 @@ import java.util.Random;
 public class Question_Create{
     int[] selected_shape;  //プログラミングの都合上、selected_shapeをクラス変数にしました。
                            //内部設計書に書かなくていいです。
-    ShapeList shapelist;  
+    ShapeMap shapemap;  
     Question_Info question_info;
     private final int[] question_type_array;
     public Question_Create(){
         question_type_array=new int[]{0,0,0,1,1,2,1,2,1,2,2};
-        shapelist=new ShapeList();
+        shapemap=new ShapeMap();
         selected_shape=new int[2];
         question_info=null;
     }
     public void make_question_info(Shape_Info[] shape_info, int playnum){
-        int shape_size=shapelist.getsize();
+        int shape_size=shapemap.getsize();
         int[] shape_num=new int[shape_size];
 
         for(int i=0;i<shape_num.length;i++){
@@ -153,15 +153,15 @@ public class Question_Create{
         String bun="";
         String s,s1,s2;
         if(keisan_type==0){
-            s=shapelist.getStr(selected_shape[0]);
+            s=shapemap.getStr(selected_shape[0]);
             bun=s+"はいくつですか？";
         }else if(keisan_type==1){
-            s1=shapelist.getStr(selected_shape[0]);
-            s2=shapelist.getStr(selected_shape[1]);
+            s1=shapemap.getStr(selected_shape[0]);
+            s2=shapemap.getStr(selected_shape[1]);
             bun=s1+"と"+s2+"を足して、いくつですか？";
         }else if(keisan_type==2){
-            s1=shapelist.getStr(selected_shape[0]);
-            s2=shapelist.getStr(selected_shape[1]);
+            s1=shapemap.getStr(selected_shape[0]);
+            s2=shapemap.getStr(selected_shape[1]);
             bun=s1+"から"+s2+"を引いて、いくつですか？";
         }else{
             bun="【エラー】Questionでエラーが発生";

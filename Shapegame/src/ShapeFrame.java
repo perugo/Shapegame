@@ -39,8 +39,8 @@ public class ShapeFrame extends JFrame{
     Container contentPane = getContentPane();
     setLayout(new BoxLayout(contentPane, BoxLayout.Y_AXIS));
     String url;
-    ImageIcon wrong=new ImageIcon(this.getClass().getResource("/image/-2.png"));
-    ImageIcon correct=new ImageIcon(this.getClass().getResource("/image/-1.png"));
+    ImageIcon wrong=new ImageIcon(this.getClass().getResource("/image/wrong.png"));
+    ImageIcon correct=new ImageIcon(this.getClass().getResource("/image/correct.png"));
     backgroundpanel2= new BackgroundPanel2(wrong,correct);
     backgroundpanel2.setBackground(new Color(250,250,250));
     backgroundpanel2.setPreferredSize(new Dimension(600, 200));

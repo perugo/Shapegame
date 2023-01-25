@@ -4,7 +4,7 @@ public class Shape_Create{
 
   private int[][] dimension;
   private Shape_Info[] shape_info;
-  private ShapeList shapelist;
+  private ShapeMap shapemap;
   private int x;
   private int y;
   private final int[] shapenum; 
@@ -13,7 +13,7 @@ public class Shape_Create{
     shapenum=new int[]{6,7,7,8,9,11,13,15,15,15,15};
     this.x=5;
     this.y=3;
-    shapelist=new ShapeList();
+    shapemap=new ShapeMap();
     dimension=new int[x][y];
   }
   public void make_shape_info(int playnum){
@@ -28,7 +28,7 @@ public class Shape_Create{
     int n=-1;int m=-1;
     for(int i=0;i<num;i++){
       Random rand=new Random();
-      int pic=shapelist.getshape();
+      int pic=shapemap.getshape();
       do{
         n=rand.nextInt(x);
         m=rand.nextInt(y);
