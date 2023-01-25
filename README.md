@@ -22,12 +22,11 @@
 
 #出題される図形の追加・削除
 
-簡単な操作で出題する図形の数を増やすことができます。
+手順1　ShapeMap.java  ShapeMap()のメソッドを編集する
+例）tmp_shapeMap.put(4,"star");の行を追加する。
 
-- 手順１ ShapeMap.java  ShapeMap()のメソッドを編集する
-例）tmp_shapeMap.put(4,"star");
 
-- 手順２　imageフォルダに写真を追加する
+手順2 imageフォルダに写真を追加する
 例）imageフォルダ にstarのpng写真 4.pngを追加する
 
 ※shapeMapのKeyは0からの連番にする必要があります。
