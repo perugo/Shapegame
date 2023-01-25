@@ -34,4 +34,18 @@
    例）imageフォルダ にstarのpng写真 4.pngを追加する
 
 ※shapeMapのKeyは0からの連番にする必要があります。
-　
+
+# 環境
+
+java言語で開発しました。eclipse IDE環境でコードを書きました。
+Intellij IDEAにはeclipseプロジェクトをインポートする機能があります。
+Intellij IDEAをご利用の方もご自身のIDEAから実行することができます。
+
+# 実行方法
+
+ - Shapegameプロジェクトフォルダをご自身のPCでインポートし、実行
+ - Shapegame.jarを実行する (java-jdk-18,java-jdk-19で実行確認済み)
+ 
+# 著者
+
+github-username : perugo
