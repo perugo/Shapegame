@@ -4,8 +4,7 @@
 
 １０問出題されます。
 
-![4](https://user-images.githubusercontent.com/34999008/214465737-04bf9aa0-9689-4868-9a5c-3a304eed69bc.png)
-
+![GOMCAM 20230125_1123410939](https://user-images.githubusercontent.com/34999008/214466901-e20a456e-74ec-45cb-8763-09e1ae54c7f4.gif)
 
 
 パネルは３×５マスで分かれており、１マスごとに何も置かないまたは●、■、▲、＋、★の図形をランダムで表示されます。
