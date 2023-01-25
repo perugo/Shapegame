@@ -22,14 +22,16 @@
 
 # 出題される図形の追加・削除
 
-手順1　ShapeMap.java  ShapeMap()のメソッドを編集する
+2ステップで図形の追加・削除ができます
 
-例）tmp_shapeMap.put(4,"star");の行を追加する。
+1. ShapeMap.java  ShapeMap()のメソッドを編集する
+
+   例）tmp_shapeMap.put(4,"star");の行を追加する。
 
 
-手順2 imageフォルダに写真を追加する
+2. imageフォルダに写真を追加する
 
-例）imageフォルダ にstarのpng写真 4.pngを追加する
+   例）imageフォルダ にstarのpng写真 4.pngを追加する
 
 ※shapeMapのKeyは0からの連番にする必要があります。
 　
