@@ -37,14 +37,13 @@
 
 # 環境
 
-java言語で開発しました。eclipse IDE環境でコードを書きました。
-Intellij IDEAにはeclipseプロジェクトをインポートする機能があります。
-Intellij IDEAをご利用の方もご自身のIDEAから実行することができます。
+java言語で開発しました。intellij IDEA環境でコードを書きました。
+This is written in Java. Developed in intellij IDEA.
 
 # 実行方法
 
  - Shapegameプロジェクトフォルダをご自身のPCでインポートし、実行
- - Shapegame.jarを実行する (java-jdk-18,java-jdk-19で実行確認済み)
+ - import Shapegame
  
 # 著者
 
