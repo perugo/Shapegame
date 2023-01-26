@@ -38,12 +38,14 @@
 # 環境
 
 java言語で開発しました。intellij IDEA環境でコードを書きました。
-This is written in Java. Developed in intellij IDEA.
+
+This program is written in Java. Developed in intellij IDEA.
 
 # 実行方法
 
  - Shapegameプロジェクトフォルダをご自身のPCでインポートし、実行
- - import Shapegame
+
+ - import Shapegame to your project.
  
 # 著者
 
