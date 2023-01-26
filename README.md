@@ -43,9 +43,9 @@ This program is written in Java. Developed in intellij IDEA.
 
 # 実行方法
 
- - Shapegameプロジェクトフォルダをご自身のPCでインポートし、実行
+Shapegameプロジェクトフォルダをご自身のPCでインポートし、実行
 
- - import Shapegame to your project.
+import Shapegame to your project.
  
 # 著者
 
